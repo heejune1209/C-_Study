@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concealability", "Concealability\Concealability.csproj", "{57E0D52C-B722-4139-AAEC-0B14E1C7BC37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57E0D52C-B722-4139-AAEC-0B14E1C7BC37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57E0D52C-B722-4139-AAEC-0B14E1C7BC37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57E0D52C-B722-4139-AAEC-0B14E1C7BC37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57E0D52C-B722-4139-AAEC-0B14E1C7BC37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2E86D75-CC32-49A3-84DE-3C2EEF049BF2}
+	EndGlobalSection
+EndGlobal
