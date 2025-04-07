@@ -109,6 +109,12 @@ namespace Delegate
             // 매개 변수가 있는 형식의 델리게이트라면 clicked(1, 2, 3) 이런식으로 실행시키면 된다.
             // 필요한 인수는 델리게이트 실행할 때 넣으면 된다. 이때 clicekd에 등록된 모든 함수들이 인수가 (1, 2, 3)으로 동일하게 실행된다.
 
+            // 즉, delegate를 사용하는 방법은 크게 두가지이다.
+            // 1. ButtonPressed(Test); 이 코드처럼 매개변수 타입을 델리게이트로 만든 함수에 호출하고 싶은 함수를 대입.
+            // 그대신 델리게이트를 선언할때 반환타입과 매개변수 타입이 같아야 함수를 넣어줄수 있음
+            // 2. OnClicked clicked = new OnClicked(Test); 이렇게 델리게이트 객체를 만들어서 호출하고싶은 함수를 대입
+            // 추가로, clicked += Test2; 이렇게 추가로 등록하고싶은 함수를 등록하고, clicked(); 이렇게 등록된 함수를 실행 시킬수 있다 
+
             // -----------------
             InputManager inputManager = new InputManager();
             inputManager.InputKey += OnInputTest; // 이벤트에 OnInputTest() 함수를 등록한다.
