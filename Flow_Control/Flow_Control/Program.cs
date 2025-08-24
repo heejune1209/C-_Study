@@ -43,7 +43,8 @@
 
             int choice = Convert.ToInt32(Console.ReadLine());
 
-            switch(choice)
+            // 현재 switch 조건문의 choice가 int형이니까 int형으로 캐스팅
+            switch (choice)
             {
                 case (int)Choice.SCISSORS:
                     Console.WriteLine("당신의 선택은 가위입니다");
